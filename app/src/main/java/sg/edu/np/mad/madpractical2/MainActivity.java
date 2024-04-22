@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         btnFollow.setText("Follow");
 
         btnFollow.setOnClickListener(v -> {
-            user.followed = !user.followed; // Toggle followed status
-            updateFollowButton(btnFollow, user.followed); // Update button text
+            user.followed = !user.followed;
+            updateFollowButton(btnFollow, user.followed);
         });
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
