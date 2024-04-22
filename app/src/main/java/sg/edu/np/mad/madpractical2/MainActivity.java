@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        User user = new User("John Doe", "MAD Developer", 1, false);
+        User user = new User("Isaac Tiew", "MAD Developer", 1, false);
 
         TextView tvName = findViewById(R.id.textView);
         TextView tvDescription = findViewById(R.id.textView2);
